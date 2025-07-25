@@ -1,0 +1,49 @@
+{
+  "search_query": "notebooks",
+  "category_code": "c278",
+  "price_min": 250,
+  "price_max": 450,
+  "use_price_stepping": true,
+  "pages_per_price_step": 50,
+  "pages": 50,
+  "output_json": "JSON/results.json",
+  "output_cleaned_json": "JSON/results_cleaned.json",
+  "cache_folder": "cache_pages",
+  "headless": false,
+  "enable_parallel_tabs": true,
+  "parallel_tabs": 5,
+  "filter_keywords": [
+    "i5-10210U", "i5-1035G1", "i5-1035G4", "i5-1035G7", "i5-10510U", "i5-10300H", "i5-10400H",
+    "i7-10510U", "i7-10610U", "i7-1065G7", "i7-10710U", "i7-10750H", "i7-10875H",
+    "i5-1135G7", "i5-1145G7", "i5-11300H", "i5-11400H",
+    "i7-1165G7", "i7-1185G7", "i7-11370H", "i7-11390H", "i7-11800H", "i7-11850H",
+    "i5-1235U", "i5-1240P", "i5-12500H", "i5-12450H",
+    "i7-1255U", "i7-1260P", "i7-12700H", "i7-12800H", "i7-12800HX",
+    "i5-1335U", "i5-1340P", "i5-13500H",
+    "i7-1355U", "i7-1360P", "i7-13700H", "i7-13800H", "i7-13800HX",
+    "Core Ultra 5 125H", "Core Ultra 5 135U",
+    "Core Ultra 7 155H", "Core Ultra 7 165H",   
+    "GTX 1650", "GTX 1650 Ti", "GTX 1660 Ti",
+    "RTX 2060", "RTX 2070", "RTX 2080", "RTX 2070 Max-Q", "RTX 2080 Max-Q",
+    "RTX 3050", "RTX 3050 Ti", "RTX 3060", "RTX 3070", "RTX 3070 Ti", "RTX 3080", "RTX 3080 Ti",
+    "RTX 3070 Max-Q", "RTX 3080 Max-Q", "RTX 3080 Max-P", 
+    "RTX A2000", "RTX A3000", "RTX A4000",
+    "RTX 4050", "RTX 4060", "RTX 4070", "RTX 4080", "RTX 4090",
+    "RTX 4070 Laptop", "RTX 4080 Laptop", "RTX 4090 Laptop"
+  ],
+  "negative keywords":[
+    "MacBook", "Apple"
+  ],
+  "exclude_titles": [
+    "gelöscht",
+    "reserviert",
+    "verkauft"
+  ],
+  "user_agents": [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; rv:114.0) Gecko/20100101 Firefox/114.0",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0"
+  ]
+}
