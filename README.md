@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛠️ eBay Kleinanzeigen Scraper Toolkit
 
 An async scraping toolkit for collecting, enriching, and filtering listings from Kleinanzeigen.de.
@@ -25,3 +26,6 @@ python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 playwright install
+=======
+# scrapper
+>>>>>>> 605685ae8dc3396f0e95c5b92e250425faba4442
