@@ -1,7 +1,8 @@
 🛠️ eBay Kleinanzeigen Scraper Toolkit
+
 An asynchronous scraping toolkit designed for collecting, enriching, and filtering listings from Kleinanzeigen.de.
 
-Features
+## Features
 🔍 Search & Scrape Listings: Efficiently search and scrape listings from eBay Kleinanzeigen.
 
 📦 Enrich Listing Details: Gather additional information by interacting with multiple tabs.
@@ -14,10 +15,10 @@ Features
 
 🧰 Playwright-Powered: Utilizes Playwright for headless browser automation.
 
-Usage
+## Usage
 Configure Settings: Edit the settings.json file to define your search parameters and preferences.
 
-Run the Launcher: Execute the scraper using the following command:
+## Run the Launcher: Execute the scraper using the following command:
 
 bash
 Copy
@@ -29,7 +30,7 @@ Python 3.10+
 
 Playwright
 
-Setup Instructions
+## Setup Instructions
 1. Clone the Repository
 bash
 Copy
@@ -62,9 +63,8 @@ playwright install
 5. Configure Settings
 Edit the settings.json file to specify your search criteria, location, and other preferences.
 
-Project Structure
-plaintext
-Copy
+##Project Structure
+
 ebaykl_toolkit/
 ├── .venv/                 # Virtual environment
 ├── requirements.txt       # Python dependencies
@@ -76,22 +76,10 @@ ebaykl_toolkit/
 ├── collect_cached_urls.py # Utility for collecting cached URLs
 ├── debug_browser.py       # Debugging utilities
 └── utils/                 # Utility functions
-Contributing
+## Contributing
 Contributions are welcome! To get started:
 
-Fork the repository.
-
-Create a new branch (git checkout -b feature-name).
-
-Make your changes.
-
-Commit your changes (git commit -am 'Add new feature').
-
-Push to the branch (git push origin feature-name).
-
-Open a pull request.
-
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Feel free to explore the repository and contribute to its development!
