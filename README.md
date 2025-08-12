@@ -32,6 +32,7 @@ Playwright
 
 ## Setup Instructions
 1. Clone the Repository
+
 bash
 Copy
 git clone https://github.com/nerdstoff/ebaykl-toolkit.git
@@ -42,7 +43,7 @@ Copy
 python -m venv .venv
 Activate the virtual environment:
 
-On Windows:
+## On Windows:
 
 bash
 Copy
@@ -52,14 +53,17 @@ On macOS/Linux:
 bash
 Copy
 source .venv/bin/activate
+
 3. Install Dependencies
 bash
 Copy
 pip install -r requirements.txt
+
 4. Install Playwright Browsers
 bash
 Copy
 playwright install
+
 5. Configure Settings
 Edit the settings.json file to specify your search criteria, location, and other preferences.
 
