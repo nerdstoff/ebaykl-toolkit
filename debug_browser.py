@@ -2,7 +2,7 @@ import asyncio
 from playwright.async_api import async_playwright
 
 async def main():
-    url = "https://www.kleinanzeigen.de/s-anzeige/lenovo-thinkpad-t580-intel-i7-8550u-15-6-fhd-ips-32gb-ram-512gb-ssd/2810893468-278-9424"
+    url = "https://www.kleinanzeigen.de/"
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)  # Show browser
